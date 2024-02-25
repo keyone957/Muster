@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: SELESTIA_facial
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Facial_cheek
+    icon: {fileID: 2800000, guid: 0d7be03363e3d9a49a8a2f94375553e8, type: 3}
+    type: 102
+    parameter:
+      name: Facial_cheek
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Facial_tear
+    icon: {fileID: 2800000, guid: c0d8233707ba8e44d8ff610d7e73a973, type: 3}
+    type: 102
+    parameter:
+      name: Facial_tear
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Facial_sweat
+    icon: {fileID: 2800000, guid: a11cb13663121484a8261b8a44a39474, type: 3}
+    type: 102
+    parameter:
+      name: Facial_sweat
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Facial_white eye
+    icon: {fileID: 2800000, guid: 636371d54cf244e47809dc4eb53c9196, type: 3}
+    type: 102
+    parameter:
+      name: Facial_white eye
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Facial_dead eye
+    icon: {fileID: 2800000, guid: 57117f43e6eb4644485e19164a5deac7, type: 3}
+    type: 102
+    parameter:
+      name: Facial_dead eye
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

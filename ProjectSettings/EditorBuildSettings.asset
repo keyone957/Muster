@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Photon/PhotonVoice/Demos/Fusion/DemoNetworkObject/Scene.unity
+    guid: 64b14236c88a0fb44adaeda9ded16a2a
+  - enabled: 0
+    path: Assets/Photon/PhotonVoice/Demos/Fusion/DemoFollowState/Scene.unity
+    guid: f5040f01fcadeee468dec020d5c95efd
+  - enabled: 1
+    path: Assets/01.Scenes/Main.unity
+    guid: c025da4df2433d14795cdcd8f1ccfc87
+  - enabled: 1
+    path: Assets/01.Scenes/Title.unity
+    guid: 8ba68a5909c63b34983536e23d2d405c
+  - enabled: 1
+    path: Assets/01.Scenes/Start.unity
+    guid: 0aaaab42ba419434d9728b3088e15550
+  - enabled: 1
+    path: Assets/01.Scenes/Stage.unity
+    guid: 702978e8937c23e459a601f188553fa3
+  - enabled: 0
+    path: Assets/01.Scenes/Test Scenes/Network RPC Test.unity
+    guid: 964a4ec379aedc64284d758728d294a0
+  - enabled: 0
+    path: Assets/01.Scenes/Stage1.unity
+    guid: 502ff1a897dc92640a9570cdb17ec64d
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: cfb6909e1d307d846bfe0c13647c4dac, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5b09b5c8e542e38498a7e458e6dd0c8e, type: 2}

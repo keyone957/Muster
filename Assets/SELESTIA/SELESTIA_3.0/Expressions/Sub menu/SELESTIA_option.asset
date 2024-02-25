@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: SELESTIA_option
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Breast size
+    icon: {fileID: 2800000, guid: 591f1b0cfea36974b8c7d3c7e91ecfa8, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Breast size
+    labels: []
+  - name: NadeNade_Head
+    icon: {fileID: 2800000, guid: 6325f38ee6b78a944ba4e0f8b187f164, type: 3}
+    type: 102
+    parameter:
+      name: NadeNade_Head_toggle
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: NadeNade_Arm
+    icon: {fileID: 2800000, guid: 68b13ad0ed213fd4183086596dc27431, type: 3}
+    type: 102
+    parameter:
+      name: NadeNade_Arm_toggle
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Particle
+    icon: {fileID: 2800000, guid: 60fecd4880df72b438a65f1272db468f, type: 3}
+    type: 102
+    parameter:
+      name: Particle
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Halo
+    icon: {fileID: 2800000, guid: 766923f7d5507a7428a64b1fc8a7f217, type: 3}
+    type: 102
+    parameter:
+      name: Halo
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

@@ -1,0 +1,32 @@
+[
+  {
+    "time": 0.0,
+    "main": 3,
+    "sub": 0,
+    "active": true
+  },
+  {
+    "time": 5.0,
+    "main": 3,
+    "sub": 1,
+    "active": true
+  },
+  {
+    "time": 8.0,
+    "main": 3,
+    "sub": 1,
+    "active": false
+  },
+  {
+    "time": 2.0,
+    "main": 3,
+    "sub": 0,
+    "active": false
+  },
+  {
+    "time": 4.0,
+    "main": 1,
+    "sub": 0,
+    "active": true
+  }
+]

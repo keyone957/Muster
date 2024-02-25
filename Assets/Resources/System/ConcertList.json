@@ -1,0 +1,77 @@
+﻿{
+  "_infos": [
+    {
+      "_ID": 1,
+      "_title" :"테스트 제목 1",
+      "_name": "이름1",
+      "_posterPath": "",
+      "_maxPeoples": 30 ,
+      "_nowPeoples": 0,
+      "_starTime" : "19:15"
+    },
+    {
+      "_ID": 2,
+      "_title" :"테스트 제목 2",
+      "_name": "이름2",
+      "_posterPath": "",
+      "_maxPeoples": 30 ,
+      "_nowPeoples": 1,
+      "_starTime" : "19:20"
+    },
+    {
+      "_ID": 3,
+      "_title" :"테스트 제목 3",
+      "_name": "이름3",
+      "_posterPath": "",
+      "_maxPeoples": 30 ,
+      "_nowPeoples": 2,
+      "_starTime" : "19:25"
+    },
+    {
+      "_ID": 4,
+      "_title" :"테스트 제목 4",
+      "_name": "이름4",
+      "_posterPath": "",
+      "_maxPeoples": 30 ,
+      "_nowPeoples": 3,
+      "_starTime" : "19:30"
+    },
+    {
+      "_ID": 5,
+      "_title" :"테스트 제목 5",
+      "_name": "이름5",
+      "_posterPath": "",
+      "_maxPeoples": 30 ,
+      "_nowPeoples": 4,
+      "_starTime" : "19:35"
+    },
+    {
+      "_ID": 6,
+      "_title" :"테스트 제목 6",
+      "_name": "이름6",
+      "_posterPath": "",
+      "_maxPeoples": 30 ,
+      "_nowPeoples": 5,
+      "_starTime" : "19:40"
+    },
+    {
+      "_ID": 7,
+      "_title" :"테스트 제목 7",
+      "_name": "이름7",
+      "_posterPath": "",
+      "_maxPeoples": 30 ,
+      "_nowPeoples": 6,
+      "_starTime" : "19:45"
+    },
+    {
+      "_ID": 8,
+      "_title" :"테스트 제목 8",
+      "_name": "이름8",
+      "_posterPath": "",
+      "_maxPeoples": 30 ,
+      "_nowPeoples": 7,
+      "_starTime" : "19:50"
+    }
+   
+  ]
+}

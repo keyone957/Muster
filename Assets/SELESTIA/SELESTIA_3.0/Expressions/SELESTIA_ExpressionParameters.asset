@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1506855854, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: SELESTIA_ExpressionParameters
+  m_EditorClassIdentifier: 
+  parameters:
+  - name: SELESTIA_costume
+    valueType: 0
+    saved: 1
+    defaultValue: 0
+  - name: Stocking
+    valueType: 2
+    saved: 1
+    defaultValue: 1
+  - name: Glove
+    valueType: 2
+    saved: 1
+    defaultValue: 1
+  - name: Top
+    valueType: 2
+    saved: 1
+    defaultValue: 1
+  - name: Shoes
+    valueType: 2
+    saved: 1
+    defaultValue: 1
+  - name: Hair acc
+    valueType: 2
+    saved: 1
+    defaultValue: 1
+  - name: Breast size
+    valueType: 1
+    saved: 1
+    defaultValue: 0.5
+  - name: Facial_cheek
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: Facial_tear
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: Facial_sweat
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: Facial_white eye
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: Facial_dead eye
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: NadeNade_Head_toggle
+    valueType: 2
+    saved: 1
+    defaultValue: 1
+  - name: NadeNade_Arm_toggle
+    valueType: 2
+    saved: 1
+    defaultValue: 1
+  - name: Particle
+    valueType: 2
+    saved: 1
+    defaultValue: 1
+  - name: Halo
+    valueType: 2
+    saved: 1
+    defaultValue: 1
