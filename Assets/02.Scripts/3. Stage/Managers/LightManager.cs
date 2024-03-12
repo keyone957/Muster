@@ -167,7 +167,7 @@ public class LightManager : MonoBehaviour
             {
                 foreach (var spot in _spotLights)
                 {
-                    if (target.transform.GetChild(0).transform.position.y< 90f)
+                    if (target.transform.GetChild(0).transform.position.y < 90f)
                     {
                         spot.transform.LookAt(target);
                     }
@@ -248,19 +248,19 @@ public class LightManager : MonoBehaviour
     public async void Local_ActiveBeamLightAll(bool active, float duration = 0.1f)
     {
         DG.Tweening.Tween tween = null;
-        // foreach (var light in _beamLight)
-        // {
-        //     light.enabled = true;
-        //     var targetIntensity = active ? 1 : 0f;
+        foreach (var light in _beamLight)
+        {
+            light.enabled = true;
+            var targetIntensity = active ? 1 : 0f;
 
-        //     //light.DOIntensity(targetIntensity, duration);
-        //     if (active) FadeIn(light, targetIntensity, 1);
-        //     else FadeOut(light, targetIntensity, 1);
-        // }
+            //light.DOIntensity(targetIntensity, duration);
+            if (active) FadeIn(light, targetIntensity, 1);
+            else FadeOut(light, targetIntensity, 1);
+        }
         await UniTask.WaitUntil(() => !tween.IsActive());
         foreach (var light in _beamLight)
         {
-            //light.enabled = active;
+            light.enabled = active;
         }
     }
     public async void Local_ActiveLongLightAll(bool active, float duration = 0.1f)

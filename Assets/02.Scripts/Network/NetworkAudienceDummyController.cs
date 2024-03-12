@@ -1,22 +1,22 @@
-using Fusion;
+ï»¿using Fusion;
 using UnityEngine;
 
-// AudienceDummy Á¶ÀÛ
-// ÃÖÃÊ ÀÛ¼ºÀÚ : ±è±âÈ«
-// ¼öÁ¤ÀÚ : -
-// ÃÖÁ¾ ¼öÁ¤ÀÏ : 2024-02-23
+// AudienceDummy ì¡°ìž‘
+// ìµœì´ˆ ìž‘ì„±ìž : ê¹€ê¸°í™
+// ìˆ˜ì •ìž : -
+// ìµœì¢… ìˆ˜ì •ì¼ : 2024-02-23
 
 public class NetworkAudienceDummyController : SimulationBehaviour
 {
-    [Rpc(RpcSources.StateAuthority, RpcTargets.InputAuthority | RpcTargets.StateAuthority)]
+    [Rpc()]
     public static void Rpc_DoIdle(NetworkRunner runner, RpcInfo info = default)
         => AudienceDummyController.instance.Local_DoIdle();
 
-    [Rpc(RpcSources.StateAuthority, RpcTargets.InputAuthority | RpcTargets.StateAuthority)]
+    [Rpc()]
     public static void Rpc_DoCheering(NetworkRunner runner, RpcInfo info = default)
         => AudienceDummyController.instance.Local_DoCheering();
 
-    [Rpc(RpcSources.StateAuthority, RpcTargets.InputAuthority | RpcTargets.StateAuthority)]
+    [Rpc()]
     public static void Rpc_LookTarget(NetworkRunner runner, bool _on, RpcInfo info = default)
         => AudienceDummyController.instance.LookTarget(_on);
 }

@@ -10,22 +10,22 @@ using UnityEngine;
 
 public class NetworkMediaManager : NetworkBehaviour
 {
-    [Rpc(RpcSources.StateAuthority, RpcTargets.InputAuthority | RpcTargets.StateAuthority)]
+    [Rpc()]
     public void Rpc_PlayMusic(int index, float normalizedTime)
         =>MediaManager.Instance.Local_PlayMusic(index, normalizedTime);
 
-    [Rpc(RpcSources.StateAuthority, RpcTargets.InputAuthority | RpcTargets.StateAuthority)]
+    [Rpc()]
     public void Rpc_StopMusic()
         => MediaManager.Instance.Local_StopMusic();
 
-    [Rpc(RpcSources.StateAuthority, RpcTargets.InputAuthority | RpcTargets.StateAuthority)]
+    [Rpc()]
     public void Rpc_PlayVideo()
         => MediaManager.Instance.Local_PlayVideo();
 
-    [Rpc(RpcSources.StateAuthority, RpcTargets.InputAuthority | RpcTargets.StateAuthority)]
+    [Rpc()]
     public void Rpc_StopVideo()
         => MediaManager.Instance.Local_StopVideo();
-    [Rpc(RpcSources.StateAuthority, RpcTargets.InputAuthority | RpcTargets.StateAuthority)]
+    [Rpc()]
     public void Rpc_TurnOffAll()
         => MediaManager.Instance.Local_TurnOffAll();
 }

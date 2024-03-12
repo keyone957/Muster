@@ -65,6 +65,7 @@ public class UIActiveMenu : UIWindow
     }
     public async void onClickBack()
     {
+        NetworkManager._instance.DisconnectToSession();
         await SceneLoader._instance.LoadScene(SceneName.Start);
     }
     public void onSet()

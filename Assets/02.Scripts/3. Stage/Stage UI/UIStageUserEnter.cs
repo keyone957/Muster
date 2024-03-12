@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Collections.Generic;
+using System;
 
 // 유저가 Room에 접근하기 위한 UI
 // 최초 작성자 : 김기홍
@@ -17,6 +19,8 @@ public class UIStageUserEnter : UIWindow
 
     // Debug + ShowCase
     [SerializeField] TMP_Dropdown _dropdownRoomList = null;
+    string[] sessionNames;
+    Tuple<int, int>[] sessionCount;
 
 
     private void Awake()
@@ -33,12 +37,21 @@ public class UIStageUserEnter : UIWindow
     }
     public void Refresh()
     {
+        _dropdownRoomList.options.Clear();
+        sessionNames = new string[NetworkManager._instance.Sessions.Count];
+        sessionCount = new Tuple<int, int>[NetworkManager._instance.Sessions.Count];
+
+        int i = 0;
         foreach (var session in NetworkManager._instance.Sessions)
         {
             TMP_Dropdown.OptionData optionData = new TMP_Dropdown.OptionData();
-            optionData.text = session.Name;
+            optionData.text = $"{session.Name} ({session.PlayerCount}/{session.MaxPlayers})";
+            
             _dropdownRoomList.options.Add(optionData);
+            sessionNames[i] = session.Name;
+            sessionCount[i] = new Tuple<int, int>(session.PlayerCount, session.MaxPlayers);
         }
+        _dropdownRoomList.RefreshShownValue();
     }
     public override bool OnKeyInput()
     {
@@ -50,14 +63,26 @@ public class UIStageUserEnter : UIWindow
     }
     private async void OnClickBack()
     {
+        NetworkManager._instance.DisconnectToLobby();
         await SceneLoader._instance.LoadScene(SceneName.Start);
     }
     public async void OnClickEnter()
     {
+        if (_dropdownRoomList.options.Count == 0) return;
+        _btnEnter.interactable = false;
 #if true // Debug + ShowCase
         Debug.Log("Dropdown Value: " + _dropdownRoomList.options[_dropdownRoomList.value].text + ", List Selected: " + (_dropdownRoomList.value + 1));
-        await NetworkManager._instance.ConnectToSession(_dropdownRoomList.options[_dropdownRoomList.value].text);
-        stageSceneManager.EnterSession();
+
+        if(sessionCount[_dropdownRoomList.value].Item1 < sessionCount[_dropdownRoomList.value].Item2)
+        {
+            await NetworkManager._instance.ConnectToSession(sessionNames[_dropdownRoomList.value]);
+            stageSceneManager.EnterSession();
+        }
+        else
+        {
+            // 방이 가득 찼다는 오류 출력
+            _btnEnter.interactable = true;
+        }
 #endif
 
 #if RELEASE

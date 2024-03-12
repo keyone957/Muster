@@ -18,6 +18,14 @@ public class NetworkGamification_Crazy : SimulationBehaviour
 
     static IDisposable syncScoreDisposable;
 
+    public static void InitializeData()
+    {
+        localScore = 0;
+        playerId = 0;
+        teamId = 0;
+        syncScoreDisposable = null;
+    }
+
     /////////////////////////////////////////
     // Rpc Function
     [Rpc(RpcSources.StateAuthority, RpcTargets.InputAuthority | RpcTargets.StateAuthority)]

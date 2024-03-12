@@ -1413,13 +1413,13 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: "\uB300\uBD84\uB958"
+    - m_Text: Category
       m_Image: {fileID: 0}
-    - m_Text: "\uD14C\uB9C8 \uCEEC\uB7EC"
+    - m_Text: Theme Color
       m_Image: {fileID: 0}
-    - m_Text: "\uC870\uBA85 \uC5F0\uCD9C"
+    - m_Text: Lighting
       m_Image: {fileID: 0}
-    - m_Text: "\uD2B9\uC218 \uD6A8\uACFC"
+    - m_Text: Effect
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1913,7 +1913,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uB300\uBD84\uB958"
+  m_text: Category
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 88606a26932773f4a9e4de897e8a39c3, type: 2}
   m_sharedMaterial: {fileID: -1679350412804549406, guid: 88606a26932773f4a9e4de897e8a39c3, type: 2}

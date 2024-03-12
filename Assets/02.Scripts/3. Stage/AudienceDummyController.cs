@@ -33,7 +33,6 @@ public class AudienceDummyController : MonoBehaviour
     private void Start()
     {
         audienceDummies = FindObjectsOfType<AudienceDummy>();
-        Debug.Log("몇마리? : "+audienceDummies.Length);
         Local_DoIdle();
     }
     public void Server_DoCheering()

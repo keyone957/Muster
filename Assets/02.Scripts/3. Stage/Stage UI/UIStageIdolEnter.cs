@@ -37,7 +37,7 @@ public class UIStageIdolEnter : UIWindow
     }
     private async void OnClickBack()
     {
-        await NetworkManager._instance.DisconnectToSession();
+        NetworkManager._instance.DisconnectToSession();
         await SceneLoader._instance.LoadScene(SceneName.Start);
     }
     public void OnClickEnter()

@@ -10,36 +10,36 @@ using UnityEngine;
 // - 함수 템플릿 사용 안하도록 변경 (RPC에서 사용못하는듯.. 오류생김)
 public class NetworkStageScreenUIManager : NetworkBehaviour
 {
-    [Rpc(RpcSources.StateAuthority, RpcTargets.InputAuthority | RpcTargets.StateAuthority)]
+    [Rpc()]
     public void Rpc_ActiveMainScreen(bool activate, RpcInfo info = default) => StageScreenUIManager.Instance.Local_ActiveMainScreen(activate);
 
-    [Rpc(RpcSources.StateAuthority, RpcTargets.InputAuthority | RpcTargets.StateAuthority)]
+    [Rpc()]
     public void Rpc_ActiveLeftScreen(bool activate, RpcInfo info = default) => StageScreenUIManager.Instance.Local_ActiveLeftScreen(activate);
 
-    [Rpc(RpcSources.StateAuthority, RpcTargets.InputAuthority | RpcTargets.StateAuthority)]
+    [Rpc()]
     public void Rpc_ActiveRightScreen(bool activate, RpcInfo info = default) => StageScreenUIManager.Instance.Local_ActiveRightScreen(activate);
 
-    [Rpc(RpcSources.StateAuthority, RpcTargets.InputAuthority | RpcTargets.StateAuthority)]
+    [Rpc()]
     public void Rpc_SetMainScreenText(string midText, RpcInfo info = default) => StageScreenUIManager.Instance.Local_SetMainScreenText(midText);
 
-    [Rpc(RpcSources.StateAuthority, RpcTargets.InputAuthority | RpcTargets.StateAuthority)]
+    [Rpc()]
     public void Rpc_SetMainScreenText(string midText, string subText, RpcInfo info = default) => StageScreenUIManager.Instance.Local_SetMainScreenText(midText, subText);
 
-    [Rpc(RpcSources.StateAuthority, RpcTargets.InputAuthority | RpcTargets.StateAuthority)]
+    [Rpc()]
     public void Rpc_SetLeftScreenText(string midText, RpcInfo info = default) => StageScreenUIManager.Instance.Local_SetLeftScreenText(midText);
 
-    [Rpc(RpcSources.StateAuthority, RpcTargets.InputAuthority | RpcTargets.StateAuthority)]
+    [Rpc()]
     public void Rpc_SetLeftScreenText(string midText, string subText, RpcInfo info = default) => StageScreenUIManager.Instance.Local_SetLeftScreenText(midText, subText);
 
-    [Rpc(RpcSources.StateAuthority, RpcTargets.InputAuthority | RpcTargets.StateAuthority)]
+    [Rpc()]
     public void Rpc_SetRightScreenText(string midText, RpcInfo info = default) => StageScreenUIManager.Instance.Local_SetRightScreenText(midText);
 
-    [Rpc(RpcSources.StateAuthority, RpcTargets.InputAuthority | RpcTargets.StateAuthority)]
+    [Rpc()]
     public void Rpc_SetRightScreenText(string midText, string subText, RpcInfo info = default) => StageScreenUIManager.Instance.Local_SetRightScreenText(midText, subText);
 
-    [Rpc(RpcSources.StateAuthority, RpcTargets.InputAuthority | RpcTargets.StateAuthority)]
+    [Rpc()]
     public void Rpc_SetSlider(float now, float max, RpcInfo info = default) => StageScreenUIManager.Instance.Local_SetSlider(now, max);
 
-    [Rpc(RpcSources.StateAuthority, RpcTargets.InputAuthority | RpcTargets.StateAuthority)]
+    [Rpc()]
     public void Rpc_ActivateSlider(bool activate, RpcInfo info = default) => StageScreenUIManager.Instance.Local_ActivateSlider(activate);
 }

@@ -38,8 +38,8 @@ public class AudienceManager : PlayerManager
     }
     public override void MovePlayerToStage()
     {
-        transform.position = spawnPositionParent.GetChild(NetworkDataManager.SpawnedUsers.Count-1).position;
-        transform.rotation = spawnPositionParent.GetChild(NetworkDataManager.SpawnedUsers.Count - 1).rotation;
+        transform.position = spawnPositionParent.GetChild(0).position;
+        transform.rotation = spawnPositionParent.GetChild(0).rotation;
         /*
         // 좌석 할당
         for (int i = 0; i < spawnPositionParent.childCount; i++)

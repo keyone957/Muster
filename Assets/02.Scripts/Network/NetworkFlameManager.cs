@@ -13,14 +13,14 @@ public class NetworkFlameManager : NetworkBehaviour
     public static NetworkFlameManager __instance = null;
 
     ///////////////////////////////////////////////////////////
-    [Rpc(RpcSources.StateAuthority, RpcTargets.InputAuthority | RpcTargets.StateAuthority)]
+    [Rpc()]
     public void Rpc_ActiveFlame(bool active)
         => FlameManager._instance.Local_ActiveFlame(active);
 
-    [Rpc(RpcSources.StateAuthority, RpcTargets.InputAuthority | RpcTargets.StateAuthority)]
+    [Rpc()]
     public void Rpc_ActiveFireWork(bool active)
         => FlameManager._instance.Local_ActiveFireWork(active);
-    [Rpc(RpcSources.StateAuthority, RpcTargets.InputAuthority | RpcTargets.StateAuthority)]
+    [Rpc()]
     public void Rpc_StopAll()
         => FlameManager._instance.Local_StopAll();
 

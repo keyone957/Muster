@@ -77,7 +77,6 @@ GameObject:
   - component: {fileID: 9057576898177755016}
   - component: {fileID: 6453238336771620243}
   - component: {fileID: 4583427889294766405}
-  - component: {fileID: 8678840037226247067}
   m_Layer: 0
   m_Name: IdolPlayerObj2
   m_TagString: Untagged
@@ -313,8 +312,7 @@ MonoBehaviour:
   - {fileID: 4814031665695972755}
   - {fileID: 3500691588226725807}
   - {fileID: 4839039044171533498}
-  SimulationBehaviours:
-  - {fileID: 8678840037226247067}
+  SimulationBehaviours: []
 --- !u!114 &5726969305692578782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -386,18 +384,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
---- !u!114 &8678840037226247067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 454323957758325023}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f7e31c949696d24592bb2cc9e12bf1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1266911468042888379
 GameObject:
   m_ObjectHideFlags: 0

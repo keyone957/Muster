@@ -141,21 +141,21 @@ public class EffectLine : MonoBehaviour
         else if (option == 2)
         {
             List<String> nameList = new List<string>();
-            nameList.Add("메인 조명");
-            nameList.Add("스포트라이트");
-            nameList.Add("어퍼 라이트");
-            nameList.Add("로우 라이트");
-            nameList.Add("빔 라이트");
-            nameList.Add("롱 라이트");
+            nameList.Add("Main Light");
+            nameList.Add("SpotLight");
+            nameList.Add("Upper Light");
+            nameList.Add("Lower Light");
+            nameList.Add("Beam Light");
+            nameList.Add("Long Light");
             EffectSub.AddOptions(nameList);
         }
         // 무대 특수효과
         else if (option == 3)
         {
             List<String> nameList = new List<string>();
-            nameList.Add("불기둥");
-            nameList.Add("폭죽");
-            nameList.Add("게임");
+            nameList.Add("Fire");
+            nameList.Add("Fireworks");
+            nameList.Add("Game");
             EffectSub.AddOptions(nameList);
         }
         // // 실내 특수 효과 

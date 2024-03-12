@@ -49,8 +49,8 @@ public class MyAudioPlayer : MonoBehaviour
         SkipButtonR.onClick.AddListener(SkipAudioR);
 
         // FMOD 이벤트 인스턴스 생성 (음원을 재생하기 위해 해당 이벤트를 설정해야 함)
-        // musicEvent = FMODUnity.RuntimeManager.CreateInstance("event:/Stage/Song/IU - Hold My Hand_2D");
-        musicEvent = FMODUnity.RuntimeManager.CreateInstance("event:/Stage/Song/QWER - Discord 2D");
+        musicEvent = FMODUnity.RuntimeManager.CreateInstance("event:/Stage/Song/IU - Hold My Hand 2D");
+        // musicEvent = FMODUnity.RuntimeManager.CreateInstance("event:/Stage/Song/QWER - Discord 2D");
 
         // 음원의 길이를 얻기 위해 FMOD 이벤트 디스크립터 획득
         FMOD.Studio.EventDescription musicDescription;

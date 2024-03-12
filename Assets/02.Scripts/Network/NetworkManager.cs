@@ -6,6 +6,7 @@ using Fusion;
 using Fusion.Sockets;
 using Cysharp.Threading.Tasks;
 using Photon.Voice.Unity;
+using Photon.Voice.Fusion;
 
 public struct ENetworkInfo
 {
@@ -23,7 +24,6 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
 
     // Network
     public NetworkRunner _runner { get; private set; }
-    public Recorder _recorder;
     // Player Prefab
     [SerializeField] NetworkObject _audiencePrefab;
     [SerializeField] NetworkObject _idolPrefab;
@@ -63,7 +63,7 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
         _runner = GetComponent<NetworkRunner>();
         if (_runner == null)
         {
-            _runner = gameObject.AddComponent<NetworkRunner>();
+            CreateNetworkRunner();
         }
     }
 
@@ -72,7 +72,7 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
     {
         if (_runner == null)
         {
-            _runner = gameObject.AddComponent<NetworkRunner>();
+            CreateNetworkRunner();
         }
 
         Debug.Log("Join Lobby : Loading");
@@ -85,7 +85,7 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
     {
         if (_runner == null)
         {
-            _runner = gameObject.AddComponent<NetworkRunner>();
+            CreateNetworkRunner();
         }
         if (_idolRig == null)
         {
@@ -98,7 +98,6 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
 
         _idolRig.gameObject.SetActive(true);
         _audienceRig.gameObject.SetActive(false);
-        //_recorder.TransmitEnabled = true;
 
 
         Debug.Log("Create Session(Room) : Loading");
@@ -106,11 +105,13 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
         {
             GameMode = GameMode.Host,
             SessionName = _roomName,
-            PlayerCount = 20,
+            PlayerCount = 5,
         });
         Debug.Log("Create Session(Room) : Success To Create");
 
         _runner.AddSimulationBehaviour(GetComponent<NetworkDataManager>());
+        _runner.AddSimulationBehaviour(GetComponent<NetworkGamification_Crazy>());
+        _runner.AddSimulationBehaviour(GetComponent<NetworkAudienceDummyController>());
     }
 
     // Session 입장 (Client)
@@ -118,7 +119,7 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
     {
         if (_runner == null)
         {
-            _runner = gameObject.AddComponent<NetworkRunner>();
+            CreateNetworkRunner();
         }
         if (_idolRig == null)
         {
@@ -140,12 +141,13 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
         });
         Debug.Log("Connect Session(Room) : Success To Connect");
     }
-    public async UniTask DisconnectToSession()
+    public void DisconnectToSession()
     {
-        Destroy(_runner);
-
-        _runner = gameObject.AddComponent<NetworkRunner>();
-        await _runner.JoinSessionLobby(SessionLobby.ClientServer);
+        RemoveNetworkRunner();
+    }
+    public void DisconnectToLobby()
+    {
+        RemoveNetworkRunner();
     }
 
     #region INetworkRunnerCallbacks - Player
@@ -300,4 +302,17 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
         throw new NotImplementedException();
     }
     #endregion
+
+    private void CreateNetworkRunner()
+    {
+        _runner = gameObject.AddComponent<NetworkRunner>();
+        gameObject.AddComponent<FusionVoiceClient>();
+    }
+    void RemoveNetworkRunner()
+    {
+        NetworkDataManager.InitializeData();
+        NetworkGamification_Crazy.InitializeData();
+        Destroy(GetComponent<FusionVoiceClient>());
+        Destroy(_runner);
+    }
 }

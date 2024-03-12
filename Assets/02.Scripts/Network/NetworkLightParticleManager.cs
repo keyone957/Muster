@@ -31,7 +31,7 @@ public class NetworkLightParticleManager : NetworkBehaviour
         lightParticleController.InitAttractorMove(idolNetworkObject.gameObject.transform.GetChild(0));
     }
     // [Rpc(RpcSources.InputAuthority, RpcTargets.InputAuthority)] // Audience만 
-    [Rpc(RpcSources.All, RpcTargets.All)]
+    [Rpc()]
     public void Rpc_EmitLightParticle(RpcInfo info = default)
     {
         Debug.Log("Emit");

@@ -10,6 +10,13 @@ using UnityEngine;
 // 최종 수정일 : 2024-02-12
 public class NetworkDataManager : SimulationBehaviour
 {
+    public static void InitializeData()
+    {
+        SpawnedUsers.Clear();
+        IdolRef = PlayerRef.None;
+        Scores.Clear();
+        TeamScore = new int[3] { 0, 0, 0 };
+    }
     ////////////////////////////////////////////
     // User Info
     #region User Info

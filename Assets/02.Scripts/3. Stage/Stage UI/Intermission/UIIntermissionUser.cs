@@ -21,22 +21,19 @@ public class UIIntermissionUser : UIWindow
         _btnEnter.onClick.AddListener(OnClickEnterStage);
         _btnExit.onClick.AddListener(OnClickEnterItermisson);
         _btnSetting.onClick.AddListener(delegate{StageSceneUIManager._instance.OpenSoundSetting();});
-
-        // Text Setting
-        _btnEnter.GetComponentInChildren<TMP_Text>().text = "공연장 들어가기";
-
     }
 
     public void OnClickEnterStage()
     {
+        _btnEnter.interactable = false;
         // 초기설정이 완료되면 버튼 활성화 (로딩시간이 필요함)
         stageSceneManager.EnterStage();
+        _btnEnter.interactable = true;
     }
     public async void OnClickEnterItermisson()
     {
-        // 초기설정이 완료되면 버튼 활성화 (로딩시간이 필요함)
+        _btnExit.interactable = false;
+        NetworkManager._instance.DisconnectToSession();
         await SceneLoader._instance.LoadScene(SceneName.Start);
-        //StageSceneUIManager._instance.CloseCurWindow(); 
-        //stageSceneManager.EnterIntermission();
     }
 }

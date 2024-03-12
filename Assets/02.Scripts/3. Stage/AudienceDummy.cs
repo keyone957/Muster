@@ -16,7 +16,6 @@ public class AudienceDummy : MonoBehaviour
     private void Awake()
     {
         animator = GetComponent<Animator>();
-        Debug.Log("더미에게 animator 존재? : " + animator);
     }
     public async void Action(ActionType type)
     {

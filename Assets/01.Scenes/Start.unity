@@ -3238,69 +3238,6 @@ MonoBehaviour:
   m_CameraFloorOffsetObject: {fileID: 532125284}
   m_RequestedTrackingOriginMode: 2
   m_CameraYOffset: 1.36144
---- !u!1 &1139700643
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1139700645}
-  - component: {fileID: 1139700644}
-  m_Layer: 0
-  m_Name: SoundManager_Start
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1139700644
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1139700643}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 1810462970
-      Data2: 1207007661
-      Data3: -752394367
-      Data4: 447150123
-    Path: event:/Bgm/Bgm_Start
-  Event: 
-  PlayEvent: 0
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  AllowNonRigidbodyDoppler: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
---- !u!4 &1139700645
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1139700643}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1225316891
 GameObject:
   m_ObjectHideFlags: 0
@@ -4143,7 +4080,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46f83dfedd6d2a04b8735a0c957187a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _recorder: {fileID: 1355131968}
   _audiencePrefab: {fileID: 82848160101703958, guid: cf6985962736a1b4a88c4972aaa0f7e2, type: 3}
   _idolPrefab: {fileID: 3231244822122436103, guid: ad0b8e72307ead843ba438e2629eb480, type: 3}
   _networkDataManagerPrefab: {fileID: 439687658954311524, guid: 3298421f14ccfc04b82267520baccba9, type: 3}
@@ -4296,7 +4232,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f7e31c949696d24592bb2cc9e12bf1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interpolationDataSource: 0
 --- !u!1 &1495544474
 GameObject:
   m_ObjectHideFlags: 0
@@ -6036,6 +5971,5 @@ SceneRoots:
   - {fileID: 515416063}
   - {fileID: 909128193}
   - {fileID: 1355131965}
-  - {fileID: 1139700645}
   - {fileID: 1599783032}
   - {fileID: 1662489409}
