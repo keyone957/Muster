@@ -38,9 +38,9 @@
 2. 서버 연결
     - 포톤 서버를 이용한 아이돌, 관객 연동.
 
-![FlowChart.drawio.png](FlowChart.drawio.png)
+![Image](https://github.com/user-attachments/assets/27d52bdd-0ff2-4af0-9ca7-22b193008193)
 
-![UI Flow Chart.drawio.png](UI_Flow_Chart.drawio.png)
+![Image](https://github.com/user-attachments/assets/ce72a52d-8cb8-44b3-a9f3-2a77ffdc057c)
 
 ### [트러블 슈팅]
 
