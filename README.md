@@ -114,7 +114,7 @@
       공연 연출 (불기둥,  폭죽)
     </td>
     <td align="center">
-      <img src="" width="480" height="300" alt="Skill Pattern"/><br/>
+      <img src="https://github.com/user-attachments/assets/09075951-4800-44bf-8a72-56370824de73" width="480" height="300" alt="Skill Pattern"/><br/>
       페이셜 및 상체 트래킹
     </td>
   </tr>
@@ -122,7 +122,7 @@
 
 <p align="left">
     <img src="https://github.com/user-attachments/assets/c1c1a27b-f686-45b5-87b1-61ce47858e30" width="480" height="300"/>
-    <img src="" width="480" height="300"/>
+    <img src="https://github.com/user-attachments/assets/725bb0af-897a-4405-ae97-c51188ff9753" width="480" height="300"/>
 </p>
 
 => IOBT기술을 이용한 아바타 풀바디 트래킹
@@ -131,11 +131,11 @@
 
 - 관객
     
-    [https://youtu.be/v0lw5rVbRik](https://youtu.be/v0lw5rVbRik)
+    [관객 입장](https://youtu.be/v0lw5rVbRik)
     
 - 아이돌
     
-    [https://youtu.be/3vQWHhON1PM](https://youtu.be/3vQWHhON1PM)
+    [아이돌 입장](https://youtu.be/3vQWHhON1PM)
     
 
 ## 프로젝트 사용 기술
@@ -172,17 +172,18 @@
 
 ---
 
-![Untitled](Untitled%205.png)
+![Image](https://github.com/user-attachments/assets/858419dd-de67-4b22-abf1-b421d02c1893)
 
 ⇒일정관리 및 업무 분담
 
-![Untitled](Untitled%206.png)
-
-![Untitled](Untitled%207.png)
+<p align="left">
+    <img src="https://github.com/user-attachments/assets/5fecfb7f-2474-4552-9929-24a7cecc264b" width="480" height="300"/>
+    <img src="https://github.com/user-attachments/assets/31894126-10bc-4271-afa9-f8c0f03f040f" width="480" height="300"/>
+</p>
 
 ⇒ Git커밋메세지 및 브랜치 이름 규칙정하여 협업
 
-![Untitled](Untitled%208.png)
+![Image](https://github.com/user-attachments/assets/b3b234e0-41e1-4191-b857-674f180497f8)
 
 ⇒프로젝트를 진행하면서 문제해결 방법 및 패치노트 작성하여 아카이빙
 
