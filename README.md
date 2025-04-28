@@ -63,39 +63,47 @@
 
 ### [콘서트 시작]
 
-![Untitled](Untitled.png)
+![Image](https://github.com/user-attachments/assets/b3eb7421-3b7c-4498-a558-cea061268a3a)
 
-=⇒ 유저는 시작이 아이돌, 관객으로 구분이 되어 역할을 정할 수 있습니다.
+⇒ 유저는 시작이 아이돌, 관객으로 구분이 되어 역할을 정할 수 있습니다.
 
-![Untitled](Untitled%201.png)
+<p align="left">
+    <img src="https://github.com/user-attachments/assets/76318f07-c5e7-4ce3-aaec-19272f44edb0" width="480" height="300"/>
+    <img src="https://github.com/user-attachments/assets/961f0481-b667-4800-83d9-8b9c7cac43f4" width="480" height="300"/>
+</p>
 
-![Untitled](Untitled%202.png)
-
-=⇒ 아이돌 역할을 선택할 때 콘서트 중 필요한 조명, 특수효과 및 무대 빛 효과를 사전에 설정이 가능합니다.
+⇒ 아이돌 역할을 선택할 때 콘서트 중 필요한 조명, 특수효과 및 무대 빛 효과를 사전에 설정이 가능합니다.
 
 또한 시간을 설정하여 어느 시간에 연출 및 효과를 나오게 할지도 설정이 가능합니다
 
-![Untitled](Untitled%203.png)
+<p align="left">
+    <img src="https://github.com/user-attachments/assets/382652d0-374d-4b63-a488-6181c520ae39" width="480" height="300"/>
+    <img src="hhttps://github.com/user-attachments/assets/03ce742f-c420-42bb-902c-06cc414b2882" width="480" height="300"/>
+</p>
 
-![Untitled](Untitled%204.png)
-
-=⇒ 유저는 콘서트장에 입장 시 아이돌이 무대를 개최하기 전에 자리를 배정받고 VR 기기 연결을 기다립니다.
+⇒ 유저는 콘서트장에 입장 시 아이돌이 무대를 개최하기 전에 자리를 배정받고 VR 기기 연결을 기다립니다.
 
 ### [게이미피케이션]
 
-[https://youtu.be/kwM9guyJpO4](https://youtu.be/kwM9guyJpO4)
+[게이미피케이션 영상](https://youtu.be/kwM9guyJpO4)
 
-=⇒만일 아이돌이 공연 도중 호응을 이끌어 내기 위해 게임을 시작하면 영상과 같이 응원봉을 흔들어 점수를 집계하여 유저참여형 콘텐츠를 제공합니다.
+⇒만일 아이돌이 공연 도중 호응을 이끌어 내기 위해 게임을 시작하면 영상과 같이 응원봉을 흔들어 점수를 집계하여 유저참여형 콘텐츠를 제공합니다.
 
 ### [ 관객 이모티콘 사용 ]
 
-![관객입장에서 이모티콘.mp4_20240301_141532.gif](%25EA%25B4%2580%25EA%25B0%259D%25EC%259E%2585%25EC%259E%25A5%25EC%2597%2590%25EC%2584%259C_%25EC%259D%25B4%25EB%25AA%25A8%25ED%258B%25B0%25EC%25BD%2598.mp4_20240301_141532.gif)
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/974632ff-7226-4913-829b-9986bcc409aa" width="480" height="300" alt="Player Attack"/><br/>
+      이모티콘 사용하는 관객
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/ca1f2773-8409-401c-8dc9-8f671342cc90" width="480" height="300" alt="Skill Pattern"/><br/>
+      이모티콘을 볼 수 있는 아이돌
+    </td>
+  </tr>
+</table>
 
-이모티콘 사용하는 관객
-
-![아이돌이 관객 이모티콘 보는중.mp4_20240301_141737.gif](%25EC%2595%2584%25EC%259D%25B4%25EB%258F%258C%25EC%259D%25B4_%25EA%25B4%2580%25EA%25B0%259D_%25EC%259D%25B4%25EB%25AA%25A8%25ED%258B%25B0%25EC%25BD%2598_%25EB%25B3%25B4%25EB%258A%2594%25EC%25A4%2591.mp4_20240301_141737.gif)
-
-이모티콘을 볼 수 있는 아이돌
 
 ### [ 아이돌 ]
 
