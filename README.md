@@ -107,19 +107,25 @@
 
 ### [ 아이돌 ]
 
-![아이돌 이펙트.mp4_20240301_141334.gif](%25EC%2595%2584%25EC%259D%25B4%25EB%258F%258C_%25EC%259D%25B4%25ED%258E%2599%25ED%258A%25B8.mp4_20240301_141334.gif)
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/e5248f9a-94ef-4b4b-a07e-6f72e1c59f5b" width="480" height="300" alt="Player Attack"/><br/>
+      공연 연출 (불기둥,  폭죽)
+    </td>
+    <td align="center">
+      <img src="" width="480" height="300" alt="Skill Pattern"/><br/>
+      페이셜 및 상체 트래킹
+    </td>
+  </tr>
+</table>
 
-공연 연출 (불기둥,  폭죽)
+<p align="left">
+    <img src="https://github.com/user-attachments/assets/c1c1a27b-f686-45b5-87b1-61ce47858e30" width="480" height="300"/>
+    <img src="" width="480" height="300"/>
+</p>
 
-![페이셜 트래킹.mp4_20240301_134153.gif](%25ED%258E%2598%25EC%259D%25B4%25EC%2585%259C_%25ED%258A%25B8%25EB%259E%2598%25ED%2582%25B9.mp4_20240301_134153.gif)
-
-페이셜 및 상체 트래킹
-
-![나와 아이돌.mp4_20240301_135757.gif](%25EB%2582%2598%25EC%2599%2580_%25EC%2595%2584%25EC%259D%25B4%25EB%258F%258C.mp4_20240301_135757.gif)
-
-![아이돌 iobt.mp4_20240301_140844.gif](%25EC%2595%2584%25EC%259D%25B4%25EB%258F%258C_iobt.mp4_20240301_140844.gif)
-
-—> IOBT기술을 이용한 아바타 풀바디 트래킹
+=> IOBT기술을 이용한 아바타 풀바디 트래킹
 
 ## 풀영상
 
