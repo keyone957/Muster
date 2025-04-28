@@ -20,7 +20,7 @@
 
 [플랫폼 소개영상](https://www.youtube.com/watch?v=ZneKTgdCRMM)
 
-![Image](https://github.com/user-attachments/assets/d42e12d5-4242-4a09-9a6c-39f307b10ca9)
+<img src="https://github.com/user-attachments/assets/d42e12d5-4242-4a09-9a6c-39f307b10ca9" width="480" height="300">
 
 ---
 
