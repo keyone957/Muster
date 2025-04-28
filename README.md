@@ -69,7 +69,7 @@
 
 <p align="left">
     <img src="https://github.com/user-attachments/assets/76318f07-c5e7-4ce3-aaec-19272f44edb0" width="480" height="300"/>
-    <img src="https://github.com/user-attachments/assets/961f0481-b667-4800-83d9-8b9c7cac43f4" width="480" height="300"/>
+    <img src="https://github.com/user-attachments/assets/ed7bd5fc-ccc5-4b83-aad9-83853d480cd4" width="480" height="300"/>
 </p>
 
 ⇒ 아이돌 역할을 선택할 때 콘서트 중 필요한 조명, 특수효과 및 무대 빛 효과를 사전에 설정이 가능합니다.
