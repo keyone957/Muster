@@ -78,7 +78,7 @@
 
 <p align="left">
     <img src="https://github.com/user-attachments/assets/382652d0-374d-4b63-a488-6181c520ae39" width="480" height="300"/>
-    <img src="hhttps://github.com/user-attachments/assets/03ce742f-c420-42bb-902c-06cc414b2882" width="480" height="300"/>
+    <img src="https://github.com/user-attachments/assets/4111839b-35c5-4dad-9d23-e67290de9683" width="480" height="300"/>
 </p>
 
 ⇒ 유저는 콘서트장에 입장 시 아이돌이 무대를 개최하기 전에 자리를 배정받고 VR 기기 연결을 기다립니다.
